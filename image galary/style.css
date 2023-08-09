@@ -1,0 +1,50 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+body{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(5, 5, 75);
+}
+#main-Div{
+     display: flex;
+     border-radius: 10px;
+     overflow: hidden;
+    width: 90%;
+    height: 43em;
+    background-color: rgb(5, 5, 75);
+    gap: 10px;
+    
+}
+#Big-Image-Container{
+    width: 80%;
+    height: 100%;
+    margin: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 1;
+    border-radius: 10px;
+    
+}
+#image-container{
+    width: 20%;
+}
+
+#image-container > img{
+    height:169px;
+    width: 100%;
+    border-radius: 10px;
+}
+#big-view_of_image{
+   flex: 1;
+   border-radius: 10px;
+}
